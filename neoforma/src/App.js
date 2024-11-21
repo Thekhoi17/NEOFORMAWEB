@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
 import ForgotPassword from "./ForgotPassword";
+import Product from "./Product";
 
 const Home = () => (
   <div style={styles.home}>
@@ -26,7 +27,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/signup" element={<SignUpForm />} />
-        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} /> 
+        <Route path="/product" element={<Product />} /> 
       </Routes>
     </Router>
   );
