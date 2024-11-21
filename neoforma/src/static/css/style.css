@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+}
+
+.container {
+	margin-top: 50px;
+	color: white;
+	 
+}
+nav{
+	padding: 0%;
+	margin: 0%;
+}
+ 
+.navbar, .navbar a, .navbar .navbar-brand, .navbar .dropdown-item {
+  color: white; /* Màu chữ trắng */
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+ 
+  justify-content: flex-start; /* Đẩy tất cả mục về bên trái */
+  align-items: center; /* Căn giữa các mục theo chiều dọc */
+  white-space: nowrap; /* Ngăn chặn việc xuống dòng */
+  padding: 10px 20px;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  flex-wrap: nowrap; /* Ngăn chặn các mục bị xuống dòng */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  white-space: nowrap; /* Ngăn chặn các liên kết xuống dòng */
+}
+.navbar a:hover {
+  color: #333;
+}
+.custom-img {
+	max-width: 100%;
+	/* Đảm bảo ảnh không vượt quá kích thước container */
+	height: 500px;
+	background-color: black;
+	
+	
+}
+.navbar{
+	background-color: red;
+	width: 100%;
+	height: 80px;
+	display: flex;
+ 
+	text-align: center;
+	 
+	padding-bottom: 30px;
+	padding-top: 0px;
+	padding-left: 0%;
+	padding-right: 20px;
+	}
+	
+	.navbar-brand{
+		color: white;
+	}
+	footer{
+		background-color: red;
+	}
+	
+	

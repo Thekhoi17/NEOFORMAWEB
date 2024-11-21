@@ -1,9 +1,10 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import LoginForm from "./LoginForm";
-import SignUpForm from "./SignUpForm";
-import ForgotPassword from "./ForgotPassword";
+import Header from "./Header";
+// import LoginForm from "./LoginForm";
+// import SignUpForm from "./SignUpForm";
+// import ForgotPassword from "./ForgotPassword";
 
 const Home = () => (
   <div style={styles.home}>
@@ -24,9 +25,12 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/header" element={<Header />} />
+
+        {/* <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/signup" element={<SignUpForm />} />
-        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} /> */}
       </Routes>
     </Router>
   );
